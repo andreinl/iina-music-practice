@@ -1,25 +1,19 @@
 {
-  "name": "Plugin Template",
-  "identifier": "com.example.iina-plugin-template",
-  "version": "1.0.0",
-  "description": "Description here",
+  "name": "Music Practice",
+  "identifier": "io.github.andreinl.music-practice",
+  "version": "0.1.0",
+  "description": "Practice music with cues, loops and slow playback.",
   "author": {
-    "name": "IINA Developers",
-    "email": "developers@iina.io",
-    "url": "https://iina.io"
+    "name": "Andrei Levin"
   },
   "entry": "src/index.js",
   "permissions": [
     "show-osd",
     "show-alert",
-    "video-overlay",
-    "network-request",
     "file-system"
   ],
   "sidebarTab": {
-    "name": "Tab"
+    "name": "Practice"
   },
-  "allowedDomains": ["*"],
-  "preferencesPage": "pref.html",
   "preferenceDefaults": {}
 }
