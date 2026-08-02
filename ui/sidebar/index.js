@@ -1,4 +1,6 @@
-import { PracticeSession } from "./practice.js";
+const status = document.getElementById("status");
+const backButton = document.getElementById("btn-back5");
 
-const session = new PracticeSession();
-session.start();
+backButton.addEventListener("click", () => {
+    status.textContent = "Back 5 seconds pressed.";
+});
